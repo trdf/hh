@@ -3,4 +3,4 @@ project(hh C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hhh procedury.c)
+add_executable(hhh przepelnienie.c)
