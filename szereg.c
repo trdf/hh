@@ -3,10 +3,11 @@
 float suma(int n)
 {
     float wynik=0;
+//    float j;                    //lepiej niz za kazdym razem inicjalizowac j w petli
     for(int i=1; i<=n; i++)
     {
-        float j=i;
-        wynik += 3 + 10 /j;
+//        j=i;
+        wynik += 3 + 10 /(float)i;      //int>float mozna, na odwrot gorzej
     }
 
     return wynik;
