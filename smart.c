@@ -19,3 +19,5 @@ int main() {
 
     return 0;
 }
+
+//w przeciwienstwie do 'brute', tutaj wypisuje liczby MNIEJSZE od N, bo tu jest tablica, przy tablicy o rozm N nie ma elementu t[N]
