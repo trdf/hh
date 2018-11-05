@@ -3,4 +3,4 @@ project(hh C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hhh l02/szereg.c)
+add_executable(hhh l03/wskazniki.c)
