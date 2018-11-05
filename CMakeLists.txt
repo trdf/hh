@@ -3,4 +3,4 @@ project(hh C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hhh szereg.c)
+add_executable(hhh l02/szereg.c)
