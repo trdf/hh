@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -22,4 +23,27 @@ int main()
     for (int i = 0; i < 10; i++) {
         printf("%d\n",tab[i]);
     }
+
+
+
+    /////////////////////////
+
+    printf("\n");
+    printf("\n");
+
+    char gr1[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+
+
+    char *asd=NULL;
+//    printf(asd);
+
+    asd=malloc(6*sizeof(char));
+
+//    printf("%s",asd);
+
+    strcpy(asd, gr1);
+
+    printf("%s",asd);
+
+
 }

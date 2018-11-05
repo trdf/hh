@@ -12,9 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedeab98-f9a6-4ab0-950f-30217e854425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/l03/string.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l03/wskazniki.c" beforeDir="false" afterPath="$PROJECT_DIR$/l03/wskazniki.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +38,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="3" />
-          <entry key="c" value="19" />
+          <entry key="c" value="20" />
           <entry key="cbp" value="4" />
           <entry key="h" value="4" />
           <entry key="txt" value="5" />
@@ -48,22 +48,23 @@
         <counts>
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="23" />
+          <entry key="ObjectiveC" value="24" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1953" />
-          <entry key="txt" value="266" />
+          <entry key="c" value="2135" />
+          <entry key="txt" value="281" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="82" />
-          <entry key="ObjectiveC" value="1953" />
-          <entry key="PLAIN_TEXT" value="184" />
+          <entry key="CMakeLists.txt" value="91" />
+          <entry key="Doxygen file" value="1" />
+          <entry key="ObjectiveC" value="2134" />
+          <entry key="PLAIN_TEXT" value="190" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -71,11 +72,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/l03/string.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" column="4" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/l03/wskazniki.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -112,9 +125,9 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/przepelnienie.c" />
         <option value="$PROJECT_DIR$/przepelnienie.c" />
         <option value="$PROJECT_DIR$/szereg.c" />
-        <option value="$PROJECT_DIR$/l03/wskazniki.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/l03/string.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/l03/wskazniki.c" />
       </list>
     </option>
   </component>
@@ -141,6 +154,11 @@
             <path>
               <item name="hh" type="b2602c69:ProjectViewProjectNode" />
               <item name="hh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hh" type="462c0819:PsiDirectoryNode" />
+              <item name="l03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +221,7 @@
       <workItem from="1540145758687" duration="73000" />
       <workItem from="1540483613966" duration="4404000" />
       <workItem from="1541424449869" duration="9300000" />
-      <workItem from="1541440626644" duration="2270000" />
+      <workItem from="1541440626644" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="usuwanie niepotrzebnych plikow">
       <created>1540483728227</created>
@@ -282,17 +300,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541442405203</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="string">
+      <created>1541442931364</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541442931364</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16047000" />
+    <option name="totallyTimeSpent" value="17365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.022090517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22952586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +331,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32601535" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053877" side_tool="true" weight="0.28320527" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32779622" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32711306" />
       <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -329,7 +354,8 @@
     <MESSAGE value="popr" />
     <MESSAGE value="foldery" />
     <MESSAGE value="wskazniki" />
-    <option name="LAST_COMMIT_MESSAGE" value="wskazniki" />
+    <MESSAGE value="string" />
+    <option name="LAST_COMMIT_MESSAGE" value="string" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dupa.txt" />
@@ -404,24 +430,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/l03/wskazniki.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/l03/string.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <caret line="6" column="4" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l03/wskazniki.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
