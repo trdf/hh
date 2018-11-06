@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 void brute(int m)
 {
@@ -32,13 +33,11 @@ void smart(int m)
 
 int main(int argc, char *argv[])
 {
-//    printf("%d\n", argc);
-
     printf("Metoda 'brutalna'.\n");
-    brute(argc);
+    brute(atoi(argv[1]));
 
     printf("Metoda 'sprytna'.\n");
-    smart(argc);
+    smart(atoi(argv[1]));
 
     return 0;
 }
