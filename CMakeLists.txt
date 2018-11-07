@@ -3,4 +3,4 @@ project(hh C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hhh l02/procedury.c)
+add_executable(hhgg l03/erastotenes2.c)

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="hh" targetName="hhh" />
+      <config projectName="hh" targetName="hhgg" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,9 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedeab98-f9a6-4ab0-950f-30217e854425" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/l03/erastotenes2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l03/konkatenacja.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l02/procedury.c" beforeDir="false" afterPath="$PROJECT_DIR$/l02/procedury.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,43 +29,43 @@
     <session id="-1485132069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="3" />
-          <entry key="c" value="23" />
+          <entry key="c" value="31" />
           <entry key="cbp" value="4" />
           <entry key="h" value="4" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="2" />
-          <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="27" />
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="ObjectiveC" value="35" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="2226" />
-          <entry key="txt" value="304" />
+          <entry key="c" value="2550" />
+          <entry key="txt" value="374" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="102" />
+          <entry key="CMakeLists.txt" value="147" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="2225" />
-          <entry key="PLAIN_TEXT" value="202" />
+          <entry key="ObjectiveC" value="2549" />
+          <entry key="PLAIN_TEXT" value="227" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -76,19 +77,28 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/l02/procedury.c">
+        <entry file="file://$PROJECT_DIR$/l03/erastotenes2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="504">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/l01/smart.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -118,8 +128,10 @@
         <option value="$PROJECT_DIR$/szereg.c" />
         <option value="$PROJECT_DIR$/l03/string.c" />
         <option value="$PROJECT_DIR$/l03/wskazniki.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/l02/procedury.c" />
+        <option value="$PROJECT_DIR$/l03/konkatenacja.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/l03/erastotenes2.c" />
       </list>
     </option>
   </component>
@@ -149,7 +161,7 @@
             <path>
               <item name="hh" type="b2602c69:ProjectViewProjectNode" />
               <item name="hh" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="l01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hh" type="b2602c69:ProjectViewProjectNode" />
@@ -173,7 +185,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/smart.c" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -200,7 +212,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hhh" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="100" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhh" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhh">
+    <configuration name="hhgg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhgg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhgg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hhh" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="100" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhgg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhgg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -208,6 +225,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.hhh" />
+      <item itemvalue="Application.hhgg" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -224,7 +242,9 @@
       <workItem from="1540483613966" duration="4404000" />
       <workItem from="1541424449869" duration="9300000" />
       <workItem from="1541440626644" duration="3896000" />
-      <workItem from="1541492826001" duration="1630000" />
+      <workItem from="1541492826001" duration="2958000" />
+      <workItem from="1541498119025" duration="178000" />
+      <workItem from="1541590821223" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="usuwanie niepotrzebnych plikow">
       <created>1540483728227</created>
@@ -317,17 +337,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541444273878</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="poprawione '02/procedury'">
+      <created>1541494535128</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541494535128</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19303000" />
+    <option name="totallyTimeSpent" value="22630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23329741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1961207" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -366,7 +393,8 @@
     <MESSAGE value="wskazniki" />
     <MESSAGE value="string" />
     <MESSAGE value="string, wskazniki" />
-    <option name="LAST_COMMIT_MESSAGE" value="string, wskazniki" />
+    <MESSAGE value="poprawione '02/procedury'" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawione '02/procedury'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dupa.txt" />
@@ -414,17 +442,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/l01/smart.c">
+    <entry file="file://$PROJECT_DIR$/l02/przepelnienie.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="22" column="127" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="127" />
+        <state relative-caret-position="168">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/l03/wskazniki.c">
+    <entry file="file://$PROJECT_DIR$/l03/konkatenacja.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="168">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -435,24 +466,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/l02/przepelnienie.c">
+    <entry file="file://$PROJECT_DIR$/l03/wskazniki.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="216">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/l02/procedury.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="192">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l01/smart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l03/erastotenes2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
