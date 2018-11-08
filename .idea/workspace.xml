@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dedeab98-f9a6-4ab0-950f-30217e854425" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l04/roznocyfrowe.c" beforeDir="false" afterPath="$PROJECT_DIR$/l04/roznocyfrowe.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,12 +26,12 @@
     <session id="-1485132069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,8 +55,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="5195" />
-          <entry key="txt" value="461" />
+          <entry key="c" value="5457" />
+          <entry key="txt" value="470" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -65,8 +64,8 @@
         <counts>
           <entry key="CMakeLists.txt" value="152" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="5194" />
-          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="ObjectiveC" value="5456" />
+          <entry key="PLAIN_TEXT" value="318" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="864">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -247,7 +246,8 @@
       <workItem from="1541590821223" duration="2566000" />
       <workItem from="1541666050070" duration="5504000" />
       <workItem from="1541671627412" duration="6658000" />
-      <workItem from="1541679533346" duration="1055000" />
+      <workItem from="1541679533346" duration="1355000" />
+      <workItem from="1541689650479" duration="856000" />
     </task>
     <task id="LOCAL-00001" summary="usuwanie niepotrzebnych plikow">
       <created>1540483728227</created>
@@ -375,22 +375,29 @@
       <option name="project" value="LOCAL" />
       <updated>1541679493339</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="l04/p00 roznocyfrowe - gotowe">
+      <created>1541680772397</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1541680772397</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36592000" />
+    <option name="totallyTimeSpent" value="37748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18103448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18372844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994612" visible="true" weight="0.28210756" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994612" weight="0.28210756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5850713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +436,8 @@
     <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza" />
     <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza 2" />
     <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="l04/p00 roznocyfrowe - wersja robocza 3" />
+    <MESSAGE value="l04/p00 roznocyfrowe - gotowe" />
+    <option name="LAST_COMMIT_MESSAGE" value="l04/p00 roznocyfrowe - gotowe" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dupa.txt" />
@@ -535,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="864">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
