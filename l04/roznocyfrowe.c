@@ -35,19 +35,24 @@ int main(int argc, char *argv[])
         for (int k=0; k <=la && a!=0; k++) {
             aa[k] = a / pow(i, la-k);
             a -= aa[k] * pow(i, la-k);
-        }   //w tym mscu mam 'argv[1]' przepisane na system o podst. 'i'. Teraz musze go porownac z kolejnymi cyframi 'argv[2]'. Robie druga taka petle:
+        }
+        //w tym mscu mam 'argv[1]' przepisane na system o podst. 'i'. Teraz musze go porownac z kolejnymi cyframi 'argv[2]'. Robie druga taka petle:
 
         int lb = log(b) / log(i); //liczba cyfr liczby 'a' w danym poz. systemie liczb. - 1
         char bb[lb+1];
-        for (int k=0; k <=lb && b!=0; k++) {
+        for (int k=0; k <=lb && b>0; k++) {
             bb[k] = b / pow(i, lb-k);
             for (int l=0;l<=la;l++) //teraz sprawdzam ta cyfre 'bb' ze wsz. po kolei cyframi 'aa'
             {
-                if
+                if (bb[k]==aa[l]) b=-1; //b = -1 -> zaznaczam ze 'aa' i 'bb' NIE sa roznocyfrowe w danym systemie liczb.
             }
             b -= bb[k] * pow(i, lb-k);
         }
 
+        if (b != -1) {   //czyli jesli SA roznocyfrowe w danym systemie
+            printf("%d", i);
+            break;
+        }    //jesli NIE sa roznocyfrowe - przechodze do nastepnego systemu
 
         /*for (int z=0;z<=l;z++) //wypisuje 'argv[1]' w tych wszystkich systemach
             printf("%d ", aa[z]);
