@@ -1,67 +1,52 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdbool.h>
-#include <string.h>
 #include <stdlib.h>
-
-//bool por(string a, string b)    //funkcja porownuje cyfry liczb 'a' i 'b' przy danej podstawie pozycyjnego systemu liczbowego 'i'
-//{
-//
-//}
-
-//string zs(int l, int i)   //funkcja zwraca postac liczby 'l' w pozycyjnym systemie liczbowym o danej podstawie 'i'
-//{
-//    int j = 1 + log(l) / log(i); //liczba cyfr liczby 'l' w danym poz. systemie liczb.
-//    char ll[j];
-//    for (j; j >= 0; --j)
-//    {
-//    }
-//
-//}
 
 int main(int argc, char *argv[])
 {
+    int k,l;  //liczniki
 
-    for (int i = 2; i <= 16; i++) {
-
-
+    for (int i = 2; i <= 16; i++)
+    {
 
 
         int a = atoi(argv[1]), b = atoi(argv[2]);
-
-        //teraz przeksztalcam 'a' z systemu dzies. na syst. o podst. 'i':
-        int la = log(a) / log(i); //liczba cyfr liczby 'a' w danym poz. systemie liczb. - 1
+        int la = log(a) / log(i); //liczba cyfr liczby 'argv[1]' w danym poz. systemie liczb. - 1
+        int lb = log(b) / log(i); //liczba cyfr liczby 'argv[2]' w danym poz. systemie liczb. - 1
         char aa[la+1];
-        for (int k=0; k <=la && a!=0; k++) {
+        char bb[lb+1];
+
+        /*Teraz przeksztalcam 'argv[1]' z systemu dzies. na syst. o podst. 'i':*/
+        for (k=0; k <=la && a!=0; k++) {
             aa[k] = a / pow(i, la-k);
             a -= aa[k] * pow(i, la-k);
         }
-        //w tym mscu mam 'argv[1]' przepisane na system o podst. 'i'. Teraz musze go porownac z kolejnymi cyframi 'argv[2]'. Robie druga taka petle:
 
-        int lb = log(b) / log(i); //liczba cyfr liczby 'a' w danym poz. systemie liczb. - 1
-        char bb[lb+1];
-        for (int k=0; k <=lb && b>0; k++) {
+       /*W tym mscu mam 'argv[1]' przepisane na system o podst. 'i'.
+         Teraz musze go porownac z kolejnymi cyframi przeksztalconego 'argv[2]'.
+         Robie druga taka petle:*/
+        for (k=0; k <=lb && b>=0; k++) {    //b>=0, a nie b>0!
             bb[k] = b / pow(i, lb-k);
-            for (int l=0;l<=la;l++) //teraz sprawdzam ta cyfre 'bb' ze wsz. po kolei cyframi 'aa'
+            for (l=0;l<=la && b!= -1;l++) //teraz sprawdzam ta cyfre 'bb' ze wsz. po kolei cyframi 'aa'
             {
                 if (bb[k]==aa[l]) b=-1; //b = -1 -> zaznaczam ze 'aa' i 'bb' NIE sa roznocyfrowe w danym systemie liczb.
             }
-            b -= bb[k] * pow(i, lb-k);
+            b -= bb[k] * pow(i, lb-k);  //tu mi jeszcze pomniejsza 'b', dlatego nizej w 'ifie' jest b>=0, bo nie zawsze bedzie b=-1!
         }
 
-        if (b != -1) {   //czyli jesli SA roznocyfrowe w danym systemie
+        if (b >= 0) {   //czyli jesli SA roznocyfrowe w danym systemie
             printf("%d", i);
             break;
         }    //jesli NIE sa roznocyfrowe - przechodze do nastepnego systemu
 
-        /*for (int z=0;z<=l;z++) //wypisuje 'argv[1]' w tych wszystkich systemach
-            printf("%d ", aa[z]);
-        printf("\n");*/
-
 
     }
 
-
-
     return 0;
+
+    /*for (int z=0;z<=l;z++)
+        printf("%d ", aa[z]);
+    printf("\n");   //wypisuje 'argv[1]' w tych wszystkich systemach */
+
+    // Mozna spokojnie zdjac ograniczenie i<=16, najpozniej dla 'i' rownego wiekszej z liczb petla sie skonczy (czyli zwykla petla 'while')
 }

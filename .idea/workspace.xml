@@ -27,12 +27,12 @@
     <session id="-1485132069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,7 +41,7 @@
           <entry key="c" value="32" />
           <entry key="cbp" value="4" />
           <entry key="h" value="4" />
-          <entry key="hhh (disassembly)" value="2" />
+          <entry key="hhh (disassembly)" value="3" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
@@ -49,15 +49,15 @@
         <counts>
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="3" />
-          <entry key="Disassembly" value="2" />
+          <entry key="Disassembly" value="3" />
           <entry key="ObjectiveC" value="36" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="4546" />
-          <entry key="txt" value="458" />
+          <entry key="c" value="5195" />
+          <entry key="txt" value="461" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -65,8 +65,8 @@
         <counts>
           <entry key="CMakeLists.txt" value="152" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="4545" />
-          <entry key="PLAIN_TEXT" value="306" />
+          <entry key="ObjectiveC" value="5194" />
+          <entry key="PLAIN_TEXT" value="309" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="43" column="97" selection-start-line="43" selection-start-column="97" selection-end-line="43" selection-end-column="97" />
+            <state relative-caret-position="162">
+              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -217,7 +217,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hhh" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="100 65" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhgg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhgg">
+    <configuration name="hhh" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="123 522" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhgg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhgg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -246,7 +246,8 @@
       <workItem from="1541498119025" duration="178000" />
       <workItem from="1541590821223" duration="2566000" />
       <workItem from="1541666050070" duration="5504000" />
-      <workItem from="1541671627412" duration="4643000" />
+      <workItem from="1541671627412" duration="6658000" />
+      <workItem from="1541679533346" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="usuwanie niepotrzebnych plikow">
       <created>1540483728227</created>
@@ -360,17 +361,31 @@
       <option name="project" value="LOCAL" />
       <updated>1541671588290</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="l04/p00 roznocyfrowe - wersja robocza 2">
+      <created>1541677495180</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1541677495180</updated>
+    </task>
+    <task id="LOCAL-00018" summary="l04/p00 roznocyfrowe - wersja robocza 3">
+      <created>1541679493339</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541679493339</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33522000" />
+    <option name="totallyTimeSpent" value="36592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17834052" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18103448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -412,7 +427,9 @@
     <MESSAGE value="poprawione '02/procedury'" />
     <MESSAGE value="l03/p01 konkatenacja&#10;l03/p04 erastotenes2" />
     <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza" />
-    <option name="LAST_COMMIT_MESSAGE" value="l04/p00 roznocyfrowe - wersja robocza" />
+    <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza 2" />
+    <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="l04/p00 roznocyfrowe - wersja robocza 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dupa.txt" />
@@ -518,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="43" column="97" selection-start-line="43" selection-start-column="97" selection-end-line="43" selection-end-column="97" />
+        <state relative-caret-position="162">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
