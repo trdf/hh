@@ -12,7 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedeab98-f9a6-4ab0-950f-30217e854425" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/l04/listaods.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l04/listaodspopr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +29,19 @@
     <session id="-1485132069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="3" />
-          <entry key="c" value="32" />
+          <entry key="c" value="34" />
           <entry key="cbp" value="4" />
           <entry key="h" value="4" />
           <entry key="hhh (disassembly)" value="3" />
@@ -49,23 +53,23 @@
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="3" />
           <entry key="Disassembly" value="3" />
-          <entry key="ObjectiveC" value="36" />
+          <entry key="ObjectiveC" value="38" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="5457" />
-          <entry key="txt" value="470" />
+          <entry key="c" value="6695" />
+          <entry key="txt" value="474" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="152" />
+          <entry key="CMakeLists.txt" value="155" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="5456" />
-          <entry key="PLAIN_TEXT" value="318" />
+          <entry key="ObjectiveC" value="6694" />
+          <entry key="PLAIN_TEXT" value="319" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -82,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/l04/listaods.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="360">
+              <caret line="15" column="13" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/l04/listaodspopr.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -122,8 +135,10 @@
         <option value="$PROJECT_DIR$/l02/procedury.c" />
         <option value="$PROJECT_DIR$/l03/konkatenacja.c" />
         <option value="$PROJECT_DIR$/l03/erastotenes2.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/l04/roznocyfrowe.c" />
+        <option value="$PROJECT_DIR$/l04/listaods.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/l04/listaodspopr.c" />
       </list>
     </option>
   </component>
@@ -133,7 +148,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
@@ -181,7 +196,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/smart.c" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -216,7 +231,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hhh" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="123 522" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhgg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhgg">
+    <configuration name="hhh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hh" TARGET_NAME="hhgg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hh" RUN_TARGET_NAME="hhgg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -247,7 +262,10 @@
       <workItem from="1541666050070" duration="5504000" />
       <workItem from="1541671627412" duration="6658000" />
       <workItem from="1541679533346" duration="1355000" />
-      <workItem from="1541689650479" duration="856000" />
+      <workItem from="1541689650479" duration="1671000" />
+      <workItem from="1541697601618" duration="1236000" />
+      <workItem from="1541953762305" duration="46000" />
+      <workItem from="1542029451868" duration="7443000" />
     </task>
     <task id="LOCAL-00001" summary="usuwanie niepotrzebnych plikow">
       <created>1540483728227</created>
@@ -382,31 +400,38 @@
       <option name="project" value="LOCAL" />
       <updated>1541680772397</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="l04/p00 roznocyfrowe - gotowe2">
+      <created>1541690537684</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1541690537684</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37748000" />
+    <option name="totallyTimeSpent" value="47288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18372844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22297297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994612" weight="0.28210756" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5850713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994612" visible="true" weight="0.2812846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58471763" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32601535" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3255814" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053877" side_tool="true" weight="0.28320527" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32711306" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32668883" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32930845" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -437,7 +462,8 @@
     <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza 2" />
     <MESSAGE value="l04/p00 roznocyfrowe - wersja robocza 3" />
     <MESSAGE value="l04/p00 roznocyfrowe - gotowe" />
-    <option name="LAST_COMMIT_MESSAGE" value="l04/p00 roznocyfrowe - gotowe" />
+    <MESSAGE value="l04/p00 roznocyfrowe - gotowe2" />
+    <option name="LAST_COMMIT_MESSAGE" value="l04/p00 roznocyfrowe - gotowe2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dupa.txt" />
@@ -534,6 +560,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l04/listaods.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="13" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -541,10 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/l04/roznocyfrowe.c">
+    <entry file="file://$PROJECT_DIR$/l04/listaodspopr.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="253">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
