@@ -3,4 +3,4 @@ project(hh C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hhgg l04/listaodspopr.c)
+add_executable(hhgg l04/rekurencja.c)
